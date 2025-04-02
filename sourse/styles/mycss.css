@@ -1,0 +1,80 @@
+/* .nav-link {
+  color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(137, 235, 113);
+} */
+/* .navbar-toggler {
+  background-color: aqua;
+} */
+/* .sidebar {
+  color: aquamarine;
+} */
+@import url("https://fonts.googleapis.com/css?family=Chicle&display=swap");
+
+body {
+  background: linear-gradient(90deg, #67feb0 0%, #9be8e7 100%);
+  font-family: Chicle, serif;
+}
+p {
+  color: black;
+}
+.navbar-brand img {
+  width: 40px;
+}
+.slide-text,
+.footer-text {
+  color: white;
+  margin: auto auto;
+}
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pepega{
+  animation: ShakePepega 2s ease 0s infinite normal forwards;
+  
+}
+@keyframes ShakePepega {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
+footer {
+  background: linear-gradient(90deg, #9be8e7 0%, #67feb0 100%);
+}
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
